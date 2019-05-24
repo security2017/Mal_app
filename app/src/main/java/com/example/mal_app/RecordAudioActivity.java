@@ -18,6 +18,7 @@ import android.widget.LinearLayout;
 import java.io.IOException;
 
 public class RecordAudioActivity extends AppCompatActivity {
+    //Start 녹음
     private static final String LOG_TAG = "AudioRecordTest";
     //녹음 권한
     static final int REQUEST_RECORD_PERMISSION = 200;
@@ -169,4 +170,5 @@ public class RecordAudioActivity extends AppCompatActivity {
             player = null;
         }
     }
+    //End 녹음
 }
