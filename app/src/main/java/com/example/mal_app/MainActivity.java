@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     void show(){
+        //안드ㅅㅂ
+        
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Malicious App");
         builder.setMessage("Malware always messagebox");
